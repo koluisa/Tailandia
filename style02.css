@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+.card{
+    display: grid; /* cria layouts em grade, fazendo com que o espaço se divida em linhas e colunas */
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));/* define o úmero e a largura das colunas, cada valor inserido cria uma ova coluna.*/
+    margin: auto;
+    margin-top: 5%;
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    overflow: hidden; /* Ele controla o que acontece quando um elemento é grande demais pra caber na área designada.*/
+    box-shadow: 0 5px 15px rgb(131, 131, 131);
+}
+
+.card img{
+    width: 50rem;
+    height: 25rem;
+    object-fit: cover; /*faz com que o conteudo se ajuste dentro do container*/
+    display: block; /* Centraliza */
+    margin: 20px auto; /* Centraliza na horizontal*/
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+}
+
+.card h2{
+    padding: 20px;
+    font-size: 60px;
+    display: grid; /* cria layouts em grade, fazendo com que o espaço se divida em linhas e colunas */
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));/* define o úmero e a largura das colunas, cada valor inserido cria uma ova coluna.*/
+     font-family: "Tangerine", cursive;
+     text-align: center;
+
+}
+
+.card p, ul{
+    font-size: 1.5rem;
+    text-align: justify;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    height: 300px;
+    background-image: url(../ativ04B/imagens/thai.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+.titulo{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+    margin-top: 10px; 
+     font-family: "Tangerine", cursive;
+     font-weight: 700;
+    font-style: normal;
+    justify-content:right;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+footer{
+    margin: 10%;
+    background-color: rgb(228, 240, 255);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card video{
+    width: 50rem;
+    height: 25rem;
+    object-fit: cover; /*faz com que o conteudo se ajuste dentro do container*/
+    display: block; /* Centraliza */
+    margin: 20px auto; /* Centraliza na horizontal*/
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+}
